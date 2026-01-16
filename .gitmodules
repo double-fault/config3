@@ -1,0 +1,3 @@
+[submodule "config2"]
+	path = config2
+	url = ./config2
