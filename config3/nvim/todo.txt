@@ -1,0 +1,6 @@
+1. Auto-format on file save (something like conform.nvim)?
+2. Snippet engine (like LuaSnip)?
+3. Add workspace-diagnostics.nvim / trouble.nvim error + warning count to lualine
+4. Make signcolumn permanent - focus.nvim fucks something up.
+    - When there are warnings/errors, signcolumn comes up, but when you switch to insert mode and they disappear, the signcolumn also disappears causing annoying movement of the code sideways.
+5. Using Ctrl+O, Ctrl+I is convenient not only to switch between buffers, but also to move within the same file (;0 -> Enter -> Patch -> Ctrl+O). However, not every cursor jump seems to set these "points" - like if I want to copy some line from 10 lines up, you do 10k -> 2yy -> 10j -> p. Doing 10k -> 2yy -> Ctrl+O -> p would be more convenient.
