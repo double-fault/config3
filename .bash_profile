@@ -114,7 +114,7 @@ alias settime="sudo date -s \"$(wget -qSO- --max-redirect=0 google.com 2>&1 | gr
 alias sudop='sudo env PATH=$PATH '
 alias perfgov="sudo cpupower frequency-set --governor performance && sudo cpupower frequency-set -d 4500MHz && cpupower frequency-info" 
 
-alias vi="XDG_CONFIG_HOME=~/config2/ XDG_DATA_HOME=~/.local/share/config2_nvim XDG_STATE_HOME=~/.local/state/config2_nvim nvim"
+alias vi="XDG_CONFIG_HOME=~/config3/ XDG_DATA_HOME=~/.local/share/config3_nvim XDG_STATE_HOME=~/.local/state/config3_nvim nvim"
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
