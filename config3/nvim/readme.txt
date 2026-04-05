@@ -8,3 +8,5 @@ Run "nvim -V1 -v" for more info
 ---
 
 Build from source (https://github.com/neovim/neovim/blob/master/BUILD.md) to avoid some issue with blink.cmp (https://www.reddit.com/r/neovim/comments/1i3m6tz/error_stringbuffer_not_found_in_lazyvimsnacks/) - apt installs some old version of LuaJIT.
+
+Install ripgrep for todo-comments.nvim search to work (`sudo apt install ripgrep`)
