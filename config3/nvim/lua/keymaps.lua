@@ -83,6 +83,8 @@ vim.keymap.set("n", "<C-l>", "<Cmd>TmuxNavigateRight<cr>")
 vim.keymap.set("n", "<C-t>", ":$tabnew<CR>", { noremap = true })
 vim.keymap.set("n", "<C-x>", ":tabclose<CR>", { noremap = true })
 
+vim.keymap.set("n", "<C-n>", ":tabn<CR>", { noremap = true, unique = true })
+vim.keymap.set("n", "<C-p>", ":tabp<CR>", { noremap = true })
 vim.keymap.set("n", "<C-\\>", ":tabn<CR>", { noremap = true, unique = true })
 vim.keymap.set("n", "<C-]>", ":tabp<CR>", { noremap = true })
 vim.keymap.set("i", "<C-\\>", "<Esc>:tabn<CR>a", { noremap = true, unique = true })
